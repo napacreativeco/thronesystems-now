@@ -1,0 +1,31 @@
+.product-archive {
+
+    padding: 10px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 100px 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+
+        border-bottom: 2px solid var(--white);
+
+        a {
+            text-decoration: none;
+            display: block;
+        }
+
+        h2 {
+            font-size: 6vw;
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+
+}

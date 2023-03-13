@@ -1,0 +1,119 @@
+:root {
+    --black: #111111;
+    --white: #fefefe;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    background: var(--black);
+    color: var(--white);
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    cursor: url("data:image/svg+xml,%3Csvg width='50' height='78' viewBox='0 0 102 124' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='animation: wobble 1s infinite;overflow:visible;fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Cpath d='M27.718,92.553c-8.957,-2.159 -21.178,-11.856 -24.153,-19.166c-1.906,-4.685 -0.251,-8.273 4.318,-9.357c0.852,-0.203 1.226,-0.41 1.165,-0.646c-0.863,-3.327 -0.586,-6.229 1.11,-11.592c1.345,-4.255 1.578,-6.3 1.019,-8.967c-0.56,-2.678 -1.964,-5.265 -5.587,-10.295c-1.741,-2.416 -3.544,-5.184 -4.006,-6.151c-3.224,-6.735 -1.415,-12.627 4.411,-14.369c1.622,-0.485 5.274,-0.528 7.16,-0.084c7.517,1.768 12.244,9.313 13.562,21.644l0.151,1.416l1.304,-0.335c0.717,-0.184 2.985,-0.451 5.041,-0.592c2.055,-0.141 3.762,-0.289 3.792,-0.328c0.031,-0.039 0.462,-1.505 0.959,-3.258c1.856,-6.544 5.627,-14.891 9.024,-19.971c3.197,-4.78 7.693,-8.863 11.03,-10.017c3.945,-1.364 8.683,0.233 11.098,3.74c2.626,3.813 2.85,8.522 0.673,14.167c-1.861,4.825 -4.932,8.939 -13.42,17.976c-1.529,1.627 -2.879,3.136 -3,3.353c-0.166,0.296 0.082,0.702 0.989,1.624c0.666,0.676 1.384,1.228 1.597,1.227c0.212,-0.001 1.572,-0.854 3.022,-1.895c11.037,-7.924 20.276,-10.921 27.734,-8.997c3.717,0.959 7.575,3.937 9.068,7.002c0.67,1.373 0.735,1.74 0.735,4.143c-0,2.364 -0.071,2.779 -0.684,4.017c-2.018,4.077 -6.059,6.938 -12.875,9.115c-3.386,1.081 -5.96,1.642 -13.461,2.931c-3.201,0.55 -5.888,1.068 -5.972,1.151c-0.083,0.083 -0.151,1.125 -0.151,2.316l0,2.166l0.753,0.179c0.415,0.098 2.026,0.303 3.581,0.456c9.713,0.955 17.663,4.112 20.611,8.187c1.261,1.742 1.671,3.224 1.661,6.014c-0.007,2.001 -0.124,2.799 -0.574,3.928c-1.494,3.753 -5.335,5.996 -10.25,5.985c-4.4,-0.01 -8.175,-1.304 -17.335,-5.946l-7.076,-3.586l-2.088,1.297c-5.157,3.205 -9.493,4.672 -15.835,5.358l-1.443,0.156l-0.004,2.179c-0.005,2.733 -0.133,3.203 -0.962,3.529c-2.271,0.891 -3.922,0.964 -6.692,0.296Zm11.574,-21.478c0.842,-0.183 2.092,-0.618 2.778,-0.965c1.318,-0.668 3.098,-2.424 3.098,-3.057c-0,-0.587 -2.678,-0.492 -4.447,0.158c-1.305,0.479 -4.438,2.392 -6.099,3.722l-0.627,0.504l1.883,-0.015c1.036,-0.007 2.572,-0.164 3.414,-0.347Zm-13.804,-11.63c1.479,-1.172 2.859,-2.677 3.751,-4.089c1.17,-1.854 2.065,-4.727 1.894,-6.078c-0.046,-0.362 -2.209,1.292 -3.279,2.508c-0.577,0.655 -1.427,1.985 -1.891,2.957c-0.882,1.85 -2.029,5.346 -1.822,5.554c0.066,0.066 0.672,-0.317 1.347,-0.852Zm8.234,4.293c3.273,-1.69 5.691,-3.82 6.889,-6.067c0.435,-0.816 0.791,-1.567 0.791,-1.669c-0,-0.36 -2.453,0.057 -3.599,0.612c-1.829,0.885 -3.569,2.637 -5.455,5.494c-1.688,2.555 -1.951,3.073 -1.554,3.054c0.103,-0.005 1.421,-0.646 2.928,-1.424Z' fill='%23fefefe' stroke-width='2px' stroke='%23191919'/%3E%3C/svg%3E") 16 16, pointer;    
+}
+
+
+/* Resets */
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.free-sticker {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 200px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--white) !important;
+    opacity: 0 !important;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    width: 100px;
+    cursor: url("data:image/svg+xml,%3Csvg width='99' height='58' viewBox='0 0 80 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;'%3E%3Cg transform='matrix(1,0,0,1,-4785,-65)'%3E%3Cg transform='matrix(1,0,0,2.1882,4639.81,5.26154)'%3E%3Cg transform='matrix(0.679245,7.60292e-17,-1.66367e-16,0.310413,148.981,28.8066)'%3E%3Cpath d='M107.5,11.5L1.5,11.5M1.5,11.5C10.475,10.964 16.587,10.136 19.836,9.016C23.086,7.896 26.64,5.39 30.5,1.5M1.5,11.5C10.475,12.036 16.587,12.864 19.836,13.984C23.086,15.104 26.64,17.61 30.5,21.5' style='fill:none;fill-rule:nonzero;stroke:white;stroke-width:3px;'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 16 16, pointer !important;
+
+}
+
+
+.swiper-button-next {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: 100% !important;
+    width: 100px;
+    cursor: url("data:image/svg+xml,%3Csvg width='99' height='58' viewBox='0 0 80 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath d='M4.81,11.107l72,0m-0,0c-6.096,-0.364 -10.248,-0.926 -12.455,-1.687c-2.207,-0.761 -4.621,-2.463 -7.243,-5.105m19.698,6.792c-6.096,0.365 -10.248,0.927 -12.455,1.688c-2.207,0.76 -4.621,2.463 -7.243,5.105' style='fill:none;fill-rule:nonzero;stroke:%23fff;stroke-width:2.04px;'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 16 16, pointer !important;
+
+}
+
+.swiper-pagination-bullet {
+    border: 2px solid var(--white) !important;
+    width: 16px !important;
+    height: 16px !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--white) !important;
+}
+
+
+// .product-slideshow {
+// 	aspect-ratio: 1/1;
+// }
+
+
+
+footer {
+    border-top: 2px solid var(--white);
+}
+
+
+
+@import './container.scss';
+@import './navbar.scss';
+@import './Products/product.scss';
+@import './Products/product-archive.scss';

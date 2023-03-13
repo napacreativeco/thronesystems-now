@@ -1,0 +1,126 @@
+.single-product {
+
+    // Page container
+    .row {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        justify-content: space-between;
+        align-items: stretch;
+        min-height: 96vh;
+        border-top: 2px solid var(--white);
+    }
+
+    .details {
+        min-width: 350px;
+        border-left: 2px solid var(--white);
+
+        .wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .upper {
+            position: relative;
+            padding: 10px 80px 10px 10px;
+    
+            h1 {
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            .excerpt {
+                padding: 12px 0;
+            }
+        }
+
+    
+        .lower {
+            padding: 80px 10px 10px 10px;
+            position: relative;
+            border-top: 2px solid var(--white);
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+    
+            details:nth-child(3) {
+                border-bottom: 2px solid var(--white);
+            }
+
+            details {
+                width: 100%;
+                border-top: 2px solid var(--white);
+                cursor: pointer;   
+            }
+
+            details span {
+                display: block;
+                padding: 10px;
+            }
+
+            summary {
+                padding: 10px;
+            }
+
+            .details::marker {
+                display: none !important;
+            }
+
+            details summary > * {
+                display: inline;
+            }
+    
+        }
+
+    }
+
+
+
+    .floater--top-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline;
+        border-right: 2px solid var(--white);
+        border-bottom: 2px solid var(--white);
+        border-left: 2px solid var(--white);
+        padding: 10px;
+    }
+
+    .floater--top-right-rotated {
+        position: absolute;
+        top: -18px;
+        right: -4px;
+        padding: 10px;
+    }
+    .floater--top-right-rotated p {
+        display: block;
+        transform: rotateZ(90deg);
+        transform-origin: bottom;
+        border-bottom: 2px solid var(--white);
+        border-left: 2px solid var(--white);
+        border-right: 2px solid var(--white);
+        padding: 10px;
+    }
+
+    .price {
+        text-align: right;
+        padding: 10px;
+        font-size: 2rem;
+        
+        p {
+            margin: 0;
+        }
+    }
+
+    .add-to-cart {
+        background: var(--white);
+        color: var(--black);
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
+@import './product-mobile.scss';

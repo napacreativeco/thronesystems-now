@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+    
+    .single-product {
+
+        // Page container
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch;
+            min-height: 96vh;
+            border-top: 2px solid var(--white);
+        }
+
+        .details {
+            border-left: 0px;
+            border-top: 2px solid var(--white);
+            .upper {
+                padding-bottom: 40px;
+            }
+            
+        }
+
+        .floater--top-left {
+            border-left: 0px;
+        }
+
+    }
+
+}
